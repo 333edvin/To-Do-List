@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.interface{
+    background:linear-gradient(145deg,rgb(34, 34, 34),rgb(53, 53, 53));
+    box-shadow: inset 1px 1px 5px #696969,
+    inset -2px -2px 5px rgb(34, 34, 34);
+}
+
+.btn{
+    border:1px solid rgb(41, 153, 46);
+    background:linear-gradient(145deg,#047200,rgb(98, 255, 84));
+    box-shadow: inset 1px 1px 3px #83ff78,
+    inset -2px -2px 3px rgb(8, 54, 12);
+    color: rgb(255, 255, 255);
+    transition: all 0.1s ease-in;
+}
+.btn:active{
+    transform: scale(0.9);
+    color: white;
+    transition: 0.2s;
+}
+/* edit delete buttons */
+.btnn{
+    border:none
+}
